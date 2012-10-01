@@ -36,7 +36,6 @@ ol:first-child {
   display: -moz-flex;
   display: flex;
   margin: 8px;
-  z-index: 1;
 }
 
 .message:hover {
