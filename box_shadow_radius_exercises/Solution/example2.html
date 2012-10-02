@@ -27,7 +27,18 @@
         /* New decorative */
         border-top-left-radius: 30px;
         border-bottom-right-radius: 30px;
+        box-shadow: inset 0 0 30px 5px gray;
+      }
+      .box:hover {
         box-shadow: inset 0 0 30px 5px gray, 0 0 15px 5px yellow;
+        background-image: -webkit-linear-gradient(-45deg, #800, #300);
+        background-image: linear-gradient(-45deg, #800, #300);
+        line-height: 102px;
+      }
+      .box:active {
+        background-image: -webkit-linear-gradient(-45deg, #e00, #700);
+        background-image: linear-gradient(-45deg, #e00, #700);
+        line-height: 105px;
       }
       .box {
         /* Old decorative */
